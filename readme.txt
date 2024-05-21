@@ -1,5 +1,5 @@
 **Descrição**
--> Este projeto possui a aplicação do Streamlit que permite prever a possibilidade de o individuo morrer/sobreviver de acordo com o seu diagnóstico de hepatocarcinoma, utilizando os dois modelos de machine learning: Decision Tree e K-Nearest Neighbors (KNN). 
+-> Este projeto tem como objetivo principal desenvolver modelos interativos para classificar pacientes com base em características de saúde, especificamente para prever se um paciente sobreviverá ou não a uma determinada condição médica. Incluimos então a aplicação de um Website por Streamlit que permite prever a possibilidade de o individuo morrer/sobreviver de acordo com o seu diagnóstico de hepatocarcinoma, utilizando os dois modelos de machine learning: Decision Tree e K-Nearest Neighbors (KNN). 
 A aplicação permite que se insire os parâmetros do paciente, se selecione um modelo para previsão, e registrar os diagnósticos em uma tabela exibida na interface.
 
 **Como Rodar o Programa**
@@ -58,7 +58,8 @@ Como Usar a Aplicação:
 
 ## Notas
 - Certifique-se de que o arquivo `hcc_dataset.csv` esteja presente no diretório especificado em ambos scripts `proj2_dados.py` e `proj2_site.py`.
-- Os arquivos `preprocessor.pkl`, `best_dt_model.pkl` e `best_knn_model.pkl` devem ser gerados previamente através do script de análise de dados e treinamento de modelos (não incluído neste arquivo).
+- Os arquivos `preprocessor.pkl`, `best_dt_model.pkl` e `best_knn_model.pkl` devem ser gerados previamente através do script de análise de dados e treinamento de modelos (não incluído neste aqui).
+- É recomendado que todos os arquivos sejam gerados e guardados para o mesmo diretório
 
 ## Contato
 Para qualquer dúvida entre em contato através do email: 
