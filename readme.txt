@@ -1,5 +1,6 @@
 **Descrição**
--> Este projeto tem como objetivo principal desenvolver modelos interativos para classificar pacientes com base em características de saúde, especificamente para prever se um paciente sobreviverá ou não a uma determinada condição médica. Incluimos então a aplicação de um Website por Streamlit que permite prever a possibilidade de o individuo morrer/sobreviver de acordo com o seu diagnóstico de hepatocarcinoma, utilizando os dois modelos de machine learning: Decision Tree e K-Nearest Neighbors (KNN). 
+-> Este projeto tem como objetivo principal desenvolver modelos interativos para classificar pacientes com base em características de saúde, especificamente para prever se um paciente sobreviverá ou não a uma determinada condição médica. Incluimos então a aplicação de
+um Website por Streamlit que permite prever a possibilidade de o individuo morrer/sobreviver de acordo com o seu diagnóstico de hepatocarcinoma, utilizando os dois modelos de machine learning: Decision Tree e K-Nearest Neighbors (KNN). 
 A aplicação permite que se insire os parâmetros do paciente, se selecione um modelo para previsão, e registrar os diagnósticos em uma tabela exibida na interface.
 
 **Como Rodar o Programa**
