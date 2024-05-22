@@ -57,7 +57,7 @@ preprocessor = ColumnTransformer(
     ])
 
 # Aplicar o pipeline de pré-processamento nos dados
-preprocessor.fit(X)
+X_preprocessed = preprocessor.fit_transform(X)
 
 # Salvar o pré-processador ajustado
 joblib.dump(preprocessor, 'D:\\Escola\\FCUP\\pycharm\\pythonProject\\preprocessor.pkl')
