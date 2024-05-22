@@ -47,6 +47,11 @@ Como Usar a Aplicação:
 6. **Reiniciar Tabela:**
    - Clique no botão "Reiniciar Tabela" para limpar todos os registros da tabela de diagnósticos.
 
+7. **Informação extra/Observação:**
+   - Para "reiniciar" a avaliação do modelo, basta selecionar o None e depois novamente o mesmo modelo e assim o algoritmo assumirá uma nova leitura dos dados (em baixo de tudo).
+   - O modelo None assume como modelo vazio, pelo que não irá aparecer nenhum resultado
+
+
 ## Estrutura do Projeto
 - `projeto2_1analise.py`: Código da primeira Análise de Dados e Treinamento de Modelos.
 - `projeto2_2analise.py`: Código da segunda Análise de Dados e Treinamento de Modelos.
